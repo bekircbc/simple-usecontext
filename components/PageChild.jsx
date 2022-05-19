@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { AppContext } from "../AppContext";
+import { AppContext } from "../src/AppContext";
 
 export function PageChild() {
-  const { title } = useContext(AppContext);
+  const { pageChildTitle } = useContext(AppContext);
 
-  return <h1>{title}</h1>;
+  return <h2>{pageChildTitle}</h2>;
 }
