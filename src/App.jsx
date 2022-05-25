@@ -7,7 +7,10 @@ function App() {
   const { title } = useContext(AppContext);
   return (
     <div className="App">
-      <h1>{title}</h1>
+      <div className="title">
+        <img src="images/icon.png" alt="logo" />
+        <h1>{title}</h1>
+      </div>
       <PageChild />
     </div>
   );
