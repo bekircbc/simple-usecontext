@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { PageChild } from "../components/PageChild";
 import { useContext } from "react";
 import { AppContext } from "./AppContext";
